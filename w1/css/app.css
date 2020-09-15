@@ -29,8 +29,11 @@ header {
 	width: 90px;
 	display: flex;
 	margin: 0 15px;
-	font-size: 15px;
+}
+
+.items li {
 	font-family: 'Quicksand', sans-serif;
+	font-size: 15px;
 }
 
 .catalog {
