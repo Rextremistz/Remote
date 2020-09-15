@@ -23,6 +23,8 @@ header {
 	display: flex;
 	padding: 25px 50px 25px 0;
 	margin: 0;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 15px;
 }
 
 .items {
@@ -32,8 +34,7 @@ header {
 }
 
 .items li {
-	font-family: 'Quicksand', sans-serif;
-	font-size: 15px;
+
 }
 
 .catalog {
