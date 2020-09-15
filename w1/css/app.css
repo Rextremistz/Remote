@@ -17,7 +17,7 @@ header {
 	padding: 25px 0 25px 50px;
 }
 
-.ui-items {
+.ul-items {
 	text-align: right;
 	display: flex;
 	padding: 25px 50px 25px 0;
@@ -52,6 +52,15 @@ header {
 	display: flex;
 	justify-content: center;
 	text-align: center;
+}
+
+.content-box {
+	background-color: lightslategray;
+	margin: 20px 20px;
+	max-width: 580px;
+	padding: 10px 200px 200px;
+	text-align: center;
+	font-size: 30px;
 }
 
 .call-to-action {
