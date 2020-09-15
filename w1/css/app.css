@@ -16,3 +16,49 @@ header {
 	width: 100%;
 	padding: 25px 0 25px 50px;
 }
+
+.ui-items {
+	text-align: right;
+	display: flex;
+	padding: 25px 50px 25px 0;
+	margin: 0;
+}
+
+.items {
+	width: 90px;
+	display: flex;
+	margin: 0 15px;
+}
+
+.catalog {
+	display: non:
+}
+
+.welcome-message {
+	text-align: center;
+	background-color: lightsteelblue;
+	padding: 5%;
+	margin: 0;
+	font-size: 50px;
+}
+
+.section-title {
+	text-align: center;
+	margin: 50px 30px 30px;
+	font-size: 50px;
+}
+
+.content-box-group {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+}
+
+.call-to-action {
+	text-align: center;
+	background-color: lightskyblue;
+	padding: 12px;
+	width: 200px;
+	margin: 20px auto;
+	font-size: 30px;
+}
