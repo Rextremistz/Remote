@@ -16,10 +16,20 @@
 			<ul class="ul-items">
 				<li class="items hvr-pulse">Home</li><li class="items hvr-pulse">Project</li><li class="items hvr-pulse">About</li><li class="items hvr-pulse">Contact</li>
 			</ul>
-			<div class="menu-icon">
+			<div class="menu-icon" onclick = "openNav()">
 				<div class="menu-icon-bar"></div>
 				<div class="menu-icon-bar"></div>
 				<div class="menu-icon-bar"></div>
+
+			</div>			
+			
+			<div id = "mySidenav" class = "sidenav">
+
+				<a href = "javascript:void(0)" class = "closebutton" onclick = "closeNav()">&times</a>
+				<a href = "#">Home</a>
+				<a href = "#">Project</a>
+				<a href = "#">About</a>
+				<a href = "#">Contact</a>
 			</div>
 
 
@@ -28,7 +38,7 @@
 		<nav>
 
 
-			<h1 class="welcome-message">Welcome!</h1>
+			<h1 class="welcome-message" id='welcome' onclick = "changeColor('blue');">Welcome!</h1>
 		</nav>
 
 			<h2 class="section-title">Section Title</h2>
@@ -53,4 +63,6 @@
 
 	</body>
 </html>
+
+}
 <!--comment-->
